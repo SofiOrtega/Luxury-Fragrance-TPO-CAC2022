@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury fragrances</title>
+    <script src="https://kit.fontawesome.com/dc08167a38.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="nav nav-menu_visible">
+            <img src="img/logo.png" alt="logo">
+            <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="#sobrenos" class="nav-menu-link nav-link">Sobre nosotros</a></li>
+                <li class="nav-menu-item"><a href="#marcas" class="nav-menu-link nav-link">Marcas</a></li>
+                <li class="nav-menu-item"><a href="#productos" class="nav-menu-link nav-link">Productos</a></li>
+                <li class="nav-menu-item"><a href="#contacto" class="nav-menu-link nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+            <div class="overlay"></div>
+            <div class="absolute">
+                <h1>Luxury Fragrances</h1>
+                <p>Tu rincón del aroma</p>
+            </div>
+            <video autoplay loop muted>
+            <source src="img/banner-video.mp4">
+            </video>
+    </section>
+    <main class="main">
+        <section class="sobrenos-container">
+            <div id="sobrenos">
+                <img src="https://i.pinimg.com/originals/f5/38/fa/f538fa5fba47a1bdfa7e8f80dcfd4a5f.jpg" class="img-1" alt="Tienda Perfumeria">
+                <div class="sobrenos-texts">
+                    <h2>Sobre nosotros</h2>
+                    <p>Llevamos años en el mercado ofreciendo diversas marcas de cuidado y belleza. Nuestra empresa está compuesta por un gran equipo de trabajo, con mucha experiencia en el rubro, completamente profesional, capacitado y cercano al cliente.</p>
+                    <a class="btn" href="#contacto">Contáctanos</a>
+                </div>
+            </div>
+        </section>
+        <section class="img-parallax parallax-1">
+            <h3><em>Con nosotros encontrará un lugar donde adquirir sus productos con confianza, el mejor servicio y excelentes valores</em></h3>
+        </section>
+        <section id="marcas">
+            <h2>Marcas con las que trabajamos</h2>        
+            <div class="marcas-carrousel">
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="img/logo-Carolina-Herrer.png" alt="Carolina Herrera">
+                        </div>
+                        <div class="slide">
+                            <img src="img/logo-Lancome.png" alt="Lancome">
+                        </div>
+                        <div class="slide">
+                            <img src="img/giorgo-armani.png" alt="Giorgo Armani">
+                        </div>
+                        <div class="slide">
+                            <img src="img/Calvin-Klein-Simbolo.png" alt="Calvin Klein">
+                        </div>
+                        <div class="slide">
+                            <img src="img/canel.png" alt="Chanel">
+                        </div>
+                        <div class="slide">
+                            <img src="img/lupita-home.jpeg" alt="Lupita Home">
+                        </div>
+                        <div class="slide">
+                            <img src="img/logo-ekos.png" alt="Ekos">
+                        </div>
+                        <div class="slide">
+                            <img src="img/logo-scentials_webq.png" alt="SC Escential">
+                        </div>
+                        <div class="slide">
+                            <img src="img/Paco-Rabanne-Logo.png" alt="Paco Rabanne">
+                        </div>
+                        <div class="slide">
+                            <img src="img/logo-small.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="img/logo-oficinalis.png" alt="Oficinalis">
+                        </div>
+                        <div class="slide">
+                            <img src="img/Givenchy.png" alt="Givenchy">
+                        </div>
+                        <div class="slide">
+                            <img src="img/freshline.png" alt="Freshline">
+                        </div>
+                        <div class="slide">
+                            <img src="img/roseto-1927.png" alt="Roseto 1927">
+                        </div>
+                        <div class="slide">
+                            <img src="img/logo_kenzo.png" alt="Kenzo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="img-parallax parallax-2">
+            <h3><em>"El perfume le da el toque final a la elegancia, un detalle que subraya sutilmente el aspecto, un extra invisible que completa el hombre y la personalidad de una mujer"  
+                – Gianni Versace</h3></em>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros productos</h2>
+            <div class="div-productos">
+                <div class="producto producto-1">
+                    <span>Perfumes y fragancias</span>
+                </div>
+                <div class="producto producto-2">
+                    <span>Difusores y velas</span>
+                </div>
+                <div class="producto producto-3">
+                    <span>Aceites y jabones</span>
+                </div>
+            </div>
+            <div class="products-btn">
+                <a href="#" class="btn-tienda">Ir a nuestra tienda virtual</a>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto-form">
+                <form action="post.php" method="POST" id="form">
+                    <div class="campo">
+                        <label for="nombreCompleto">Nombre y apellido: </label>
+                        <input type="text" id="nombreCompleto" name="nombreCompleto" value="" placeholder="Ej. Juan Pérez">
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" value="" placeholder="Ej. ejemplo@tudominio.com">
+
+                    </div>
+                    <div class="campo">
+                        <label for="celular">Celular: </label>
+                        <input type="number" id="celular" name="celular" value="" placeholder="Ej. 3512361388 (sin codigo de area país)">
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje: </label>
+                        <textarea  id="mensaje" rows="5" name="message" placeholder="Envianos tu mensaje"></textarea>
+
+                    </div>
+                    <input type="submit" class="btn-form" value="Enviar">
+                    <p class="warnings" id="warnings"></p>
+
+                </form>
+                <div class="contact-left">
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <i class="fa fa-map-marker fa-2x">
+                                <span class="contact-text direccion">Ciudad, Provincia</span>
+                            </i>
+                        </li>
+                        <li class="contact-item">
+                            <i class="fa fa-phone fa-2x">
+                                <span class="contact-text phone">+54 9 11 1234-5678</span>
+                            </i>
+                        </li>
+                        <li class="contact-item">
+                            <i class="fa fa-envelope fa-2x">
+                                <span class="contact-text gmail"><a href="mailto:luxuryfragrance@gmail.com" title="Envianos un email">luxuryfragrance@gmail.com</a></span>
+                            </i>
+                        </li>
+                    </ul>
+                    <div class="google-mapa">
+                        <iframe class="mapa-compu" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54479.76322576586!2d-64.25440254179688!3d-31.414533799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a282d979ac7f%3A0x3878f875278902b3!2sEl%20Balc%C3%B3n%20Parfum%20et%20Beaut%C3%A9!5e0!3m2!1ses!2sar!4v1665761258461!5m2!1ses!2sar" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="mapa-tablet" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54479.76322576586!2d-64.25440254179688!3d-31.414533799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a282d979ac7f%3A0x3878f875278902b3!2sEl%20Balc%C3%B3n%20Parfum%20et%20Beaut%C3%A9!5e0!3m2!1ses!2sar!4v1665761258461!5m2!1ses!2sar" width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="mapa-mobil" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54479.76322576586!2d-64.25440254179688!3d-31.414533799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a282d979ac7f%3A0x3878f875278902b3!2sEl%20Balc%C3%B3n%20Parfum%20et%20Beaut%C3%A9!5e0!3m2!1ses!2sar!4v1665761258461!5m2!1ses!2sar" width="320" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer id="footer">    
+        <div class="redes-sociales">
+            <hr>
+            <a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <hr>
+        </div>
+        <img src="img/logo-footer.png" alt="logo" class="logo-footer">
+        <p>Luxury Fragrance &COPY; Todos los derechos reservados</p>
+    </footer>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
